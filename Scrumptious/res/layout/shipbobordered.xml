@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+
+	<LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="match_parent"
+       android:background="@drawable/button_border"
+       android:orientation="horizontal" 
+        android:layout_marginTop="50dp">
+
+		<ImageView
+		    android:id="@+id/productThumbnail"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="0.46"
+		    android:background="@drawable/button_border"
+		    android:scaleType="center"
+		    android:src="@drawable/ds_entrepreneur" />
+
+
+
+
+   <TextView
+       android:layout_width="247dp"
+       android:layout_height="match_parent"
+       android:layout_marginLeft="16dp"
+       android:layout_weight="0.46"
+       android:text="Ship Captain Dhruv will pick your item in 20 minutes"
+       android:textSize="25sp" />
+   </LinearLayout>
+   
+	      <LinearLayout
+         android:layout_width="fill_parent"
+    	 android:layout_height="wrap_content"
+            android:layout_weight="0.75"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp" >
+
+            <Button
+                android:id="@+id/trackOrder"
+      			android:layout_width="match_parent"
+      			android:layout_height="90dp"
+                android:ems="5"
+                android:textSize="25sp"
+                android:text="Track Order" />
+
+          <!--   <Button
+                android:id="@+id/btnCancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="5"
+                android:text="Cancel" /> -->
+        </LinearLayout>
+   
+</LinearLayout>

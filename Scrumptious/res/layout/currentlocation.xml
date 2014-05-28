@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@+id/ScrollView01" 
+            android:layout_width="fill_parent" 
+            android:layout_height="fill_parent" 
+           android:background="#ede8e2"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+            
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+       <LinearLayout
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="20dp"
+           android:layout_weight="7.42"
+           android:orientation="horizontal" >
+
+   <EditText
+    android:id="@+id/housenumber"
+    android:layout_height="wrap_content"
+    android:hint="Appartment Number"
+    android:inputType="textPersonName"
+    android:layout_width="fill_parent">
+</EditText>
+          </LinearLayout>
+   <LinearLayout
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="20dp"
+           android:layout_weight="7.42"
+           android:orientation="horizontal" >
+   <EditText
+    android:id="@+id/street"
+    android:layout_height="wrap_content"
+    android:hint="Street Address"
+    android:inputType="textPersonName"
+    android:layout_width="fill_parent">
+</EditText>
+
+    </LinearLayout>
+   <LinearLayout
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="20dp"
+           android:layout_weight="7.42"
+           android:orientation="horizontal" >
+   <EditText
+    android:id="@+id/city"
+    android:layout_height="wrap_content"
+    android:hint="City"
+    android:inputType="textPersonName"
+    android:layout_width="fill_parent">
+</EditText>
+
+    </LinearLayout>
+    
+      <LinearLayout
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="20dp"
+           android:layout_weight="7.42"
+           android:orientation="horizontal" >
+   <EditText
+    android:id="@+id/state"
+    android:layout_height="wrap_content"
+    android:hint="State"
+    android:inputType="textPersonName"
+    android:layout_width="fill_parent">
+</EditText>
+
+    </LinearLayout>
+   
+          
+      <LinearLayout
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="20dp"
+           android:layout_weight="7.42"
+           android:orientation="horizontal" >
+   <EditText
+    android:id="@+id/zipcode"
+    android:layout_height="wrap_content"
+    android:hint="ZipCode"
+    android:inputType="number"
+    android:layout_width="fill_parent"
+    >
+</EditText>
+
+    </LinearLayout>
+    <Button
+      android:id="@+id/saveAddress"
+      android:layout_width="match_parent"
+      android:layout_height="60dp"
+      android:text="Set Current Location" />
+   
+   
+    </LinearLayout>
+ </ScrollView>

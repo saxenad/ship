@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/button_border" >
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="Ship:"
+           android:textSize="25sp" />
+
+  <ImageView android:id="@+id/productThumbnail"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="right"
+         android:layout_marginRight="6dp"
+         android:background="#ffffff" 
+      />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+       android:background="@drawable/button_border"
+        android:layout_marginTop="50dp" >
+
+        <TextView
+            android:id="@+id/chooseShippingOption"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_weight="3"
+            android:hint="Choose Shipping Option"
+             android:textSize="25sp"
+            android:ems="10" />
+        
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/ScrollView01" 
+            android:layout_width="fill_parent" 
+            android:layout_height="fill_parent" >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:background="@drawable/button_border"
+        android:layout_marginTop="50dp" >
+
+    
+
+        <TextView
+            android:id="@+id/chooseShippingAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_weight="3"
+            android:hint="Enter Destination Address:"
+             android:textSize="25sp"
+            android:ems="10" />
+    </LinearLayout>
+
+ </ScrollView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25" />
+
+        <LinearLayout
+         android:layout_width="fill_parent"
+    	 android:layout_height="wrap_content"
+            android:layout_weight="0.75"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp" >
+
+            <Button
+                android:id="@+id/btnSubmit"
+      			android:layout_width="match_parent"
+      			android:layout_height="90dp"
+                android:ems="5"
+                android:textSize="25sp"
+                android:background="#30aaa3"
+                android:text="Ship it!" />
+
+          <!--   <Button
+                android:id="@+id/btnCancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="5"
+                android:text="Cancel" /> -->
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

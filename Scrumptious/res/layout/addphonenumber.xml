@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@+id/ScrollView01" 
+            android:layout_width="fill_parent" 
+            android:layout_height="fill_parent" 
+            android:background="#ede8e2"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+            
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="213dp"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textView1"
+         android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="0.60"
+            android:paddingLeft="10dip"
+            android:text="Enter your Phone Number"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <ImageButton
+            android:id="@+id/crossButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/buttoncross" />
+
+    </LinearLayout>
+
+<View
+    android:layout_width="fill_parent"
+    android:layout_height="5dp"
+    android:background="#d3d3d3"/>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:layout_marginTop="20dp">
+        
+    </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="20dp"
+           android:orientation="horizontal" >
+
+<ImageView
+    android:id="@+id/textView1"
+    android:layout_width="130dp"
+    android:layout_height="40dp"
+    android:layout_weight="0.02"
+    android:paddingLeft="10dip"
+    android:src="@drawable/phoneimage" />
+
+           <EditText
+               android:id="@+id/phoneNumber"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_weight="1.12"
+               android:inputType="number"
+               android:paddingLeft="15dip"
+               android:textColor="#3063A5"
+               android:textColorHint="#3063A5"
+               android:textSize="20sp" />
+
+       </LinearLayout>
+
+       <Button
+           android:id="@+id/savePhoneNumber"
+           android:layout_width="match_parent"
+           android:layout_height="60dp"
+           android:layout_marginTop="20dp"
+          android:background="#30aaa3"
+           
+           android:text="Next" />
+         
+    </LinearLayout>
+ </ScrollView>
